@@ -1,0 +1,45 @@
+    .container {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0,0,0,.1);
+        text-align: center;
+        width: 400px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .btn {
+        display: block;
+        margin: 15px 0;
+        padding: 14px;
+        background: #0066cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background: #0052a3;
+    }
+
+    .info {
+        color: #666;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+</style>
+<a class="btn" href="monografia.pdf" download>
+    📄 Baixar Projeto de Monografia
+</a>
+
+<a class="btn" href="plano.zip" download>
+    📦 Baixar Draft do Plano Automático
+</a>
+
+<p class="info">
+    Coloque os ficheiros na mesma pasta deste index.html.
+</p>
